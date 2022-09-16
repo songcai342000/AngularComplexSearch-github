@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularComplexSearch", "AngularComplexSearch.csproj", "{C9530C04-F445-4BDE-9528-24286A6D8FAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestBackend", "..\AngularIdentity-2.1.3\UnitTestBackend\UnitTestBackend.csproj", "{E8F24C57-3344-445B-8E02-523244F84CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9530C04-F445-4BDE-9528-24286A6D8FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9530C04-F445-4BDE-9528-24286A6D8FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9530C04-F445-4BDE-9528-24286A6D8FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9530C04-F445-4BDE-9528-24286A6D8FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F24C57-3344-445B-8E02-523244F84CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F24C57-3344-445B-8E02-523244F84CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F24C57-3344-445B-8E02-523244F84CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F24C57-3344-445B-8E02-523244F84CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC945A93-3FF1-4D8B-ACE8-0C04B16037AD}
+	EndGlobalSection
+EndGlobal
