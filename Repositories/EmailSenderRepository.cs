@@ -30,7 +30,7 @@ namespace AngularComplexSearch.Models
 				client.ServerCertificateValidationCallback = (sender, certificate, certChainType, errors) => true;
 				client.AuthenticationMechanisms.Remove("XOAUTH2");
 				await client.ConnectAsync("smtp.gmail.com", 587);
-				await client.AuthenticateAsync("songcai342000@gmail.com", "mcnixnpdfytcksoy");
+				await client.AuthenticateAsync("**********@gmail.com", "*********");
 				await client.SendAsync(mimeEmail);
 				await client.DisconnectAsync(true);
 			}
